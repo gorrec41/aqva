@@ -1,0 +1,30 @@
+include ./../mixins/_btn.pug
+
+footer.footer#section5
+    .container 
+        .footer-wrap 
+            .footer-content
+                h1.title.footer-title
+                    |Контакты
+                p.artical.footer-artical 
+                    |Мы ответим на все вопросы,просто оставьте заявку и мы свяжемся с вами в течение 10 минут
+                +btn
+                ul.footer-list
+                    li.footer-item 
+                        a.footer-link(href="tel: +79992503265") 
+                            img(src="./../../img/phone-icon.png", alt="")
+                            |+7 999 250 32 65
+                    li.footer-item 
+                        p.footer-link
+                            img(src="./../../img/icon-city.png", alt="")
+                            |Москва, Кировская 24
+                    li.footer-item 
+                        a.footer-link(href="mailto: villmarta@gmail.com") 
+                            img(src="./../../img/icon-email.png", alt="")
+                            |villmarta@gmail.com
+
+            .footer-image 
+                img(src="./../../img/fish.png", alt="")
+        .copy 
+            p.footer-copy
+                |&#169; | 2021г.

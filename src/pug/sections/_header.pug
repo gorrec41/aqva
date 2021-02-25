@@ -1,0 +1,60 @@
+include ./../mixins/_btn.pug
+.navigation
+    .container
+        nav.nav
+            ul.nav-list 
+                li.nav-item
+                    a.nav-logo(href="#!")
+                        img.img-logo(src="./../../img/header/logo.png", alt="logo")
+                li.nav-item
+                    a.nav-link(href="#!")
+                    |Меню
+                li.nav-item
+                    a.nav-link(href="#!")
+                        |Приемущества
+                li.nav-item
+                    a.nav-link(href="#!")
+                        |Фотогалерея
+                li.nav-item
+                    a.nav-link(href="#!")
+                        |Отзывы
+                li.nav-item
+                    a.nav-link(href="#!")
+                        |Контакты
+            .nav-contact
+                p.contact-phone 
+                    |+7 999 250 32 65
+                p.contact-adress 
+                    |Москва,Кировская 24
+
+header.header
+    .container
+        
+        .nav__mobil
+            .nav__movil-burger.activ
+                span
+                ul.nav-list_mobil
+                    li.menu
+                        a.nav-link(href="#section1")
+                            |Преимущества
+                    li.menu
+                        a.nav-link(href="#section2")
+                            |Фотогалерея
+                    li.menu
+                        a.nav-link(href="#section3")
+                            |О товарах
+                    li.menu
+                        a.nav-link(href="#section4")
+                            |Отзывы
+                    li.menu
+                        a.nav-link(href="#section5")
+                            |Контакты
+        .header-wrap 
+            .header-content
+                h1.title
+                    |Лучшие крышки и  свет для аквариумов
+                p.artical.header-artical 
+                    |Аквариумистам до 16 лет и пенсионерам доставка по России за наш счёт
+                +btn
+        .header-img
+            img(src="./../../img/header/aqvar.png", alt="")
